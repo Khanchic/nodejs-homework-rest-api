@@ -22,6 +22,8 @@ app.use((req, res) => {
   res.status(404).json({ message: 'Not found' })
 });
 
+//
+
 app.use(errorHandler);
 
 module.exports = app;
